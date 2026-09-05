@@ -795,9 +795,6 @@ nav li a.active-link::after {
   border: 1px solid var(--main-color);
 }
 
-/* .light-mode .timeline-content.glass-card {
-  border-color: rgba(0, 0, 0, 0.1);
-} */
 
 .timeline-title {
   font-size: 1.76rem;
@@ -823,7 +820,25 @@ nav li a.active-link::after {
   font-weight: 600;
   letter-spacing: 0.5px;
 }
+.timeline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
 
+.timeline-title {
+    margin: 0;
+}
+.timeline-year {
+    color: #0ea5e9;
+    font-weight: bold;
+    font-size: 1.1rem;
+    white-space: nowrap;
+}
+.timeline-subtitle {
+    margin-top: 8px;
+}
 /* =========================================
          SKILLS SECTION
 ========================================= */
