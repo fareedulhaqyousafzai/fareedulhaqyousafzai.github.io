@@ -2129,7 +2129,7 @@ nav li a.active-link::after {
 
   .timeline-container::before {
     left: 1.5rem;
-    top: 7rem;
+    top: 6rem;
     bottom: 6rem;
   }
 
